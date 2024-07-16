@@ -1,0 +1,21 @@
+import java.io.*;
+import  java.util.*;
+import java.lang.*;
+class UserMainCode
+{
+        public String secondWordUpperCase(String input1){
+ 
+ 
+ String[] sentences = input1.split(" ");
+    int len = sentences.length;
+    if(len<=1)
+    
+        return "LESS";
+    
+    else
+    
+       return sentences[1].toUpperCase();
+    
+
+	}
+}
